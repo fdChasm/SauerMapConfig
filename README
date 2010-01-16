@@ -1,3 +1,8 @@
+INSTALLATION INSTRUCTIONS XP
+
+Install python and python image library (PIL)
+
+
 INSTALLATION INSTRUCTIONS UBUNTU 9.10
 
 sudo apt-get install python2.6 python-imaging python-imaging-tk
