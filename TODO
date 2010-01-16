@@ -1,0 +1,24 @@
+sauer_mapfig<VER>.py
+^	get rid of self.data_current_texture_properties use and write all data immediately back to PROJECT object
+^	create texture selection buttons using tkImageSelectionButtonWithClear class
+	create project options dialog
+	improve texture options dialog
+	improve general configurations dialog
+^	add rotation passing when modifying tkDispmodwidget object
+	improve general config class
+^		add real config file support
+	add checks to see that all referenced image files exist before importing them as objects
+
+^tkImageSelectionButtonWithClear.py
+^	build this class to emulate what is in sauer_mapfig for creating buttons
+^	modify to include clear texture button
+^	make play.py work first
+^		make hover on the inner button keep the button present
+
+sauerConfigWrite.py
+	build support for all shader types
+	improve formatting of output config
+
+tkDispModWidget.py
+^	add support for rotating and flipping the texture images before applying the other changes
+	consider performance issues with large textures
